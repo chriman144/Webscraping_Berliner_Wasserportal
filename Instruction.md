@@ -7,9 +7,10 @@ You can check it out in here: [Wasserportal Berlin](https://wasserportal.berlin.
 ![Screenshot of the website of open data for water in berlin](/Images/Screenshot_Wasserportal.png)
 
 But let's pretend you want to get all the current data in a more flexible format and all historic data for your project about Berlin water resources. The documented API for the data is simply the adress of the website. So you need to load all your data manually or use some web scraping techniques. In here, I provide a Jupyter notebook with a small recipe downloading current ground water level data and all know historic data hosted by 'Wasserportal Berlin'.
-You can download the Jupyter notebook and edit for your needs.
+You can download the Jupyter notebook (as of June 23 2023) and edit for your needs.
 
 Desclaimer: Due to the disclaimer of the provider all data is unautited raw data.
+
 
 <br/>
 
@@ -26,6 +27,8 @@ This says
 >   https://webmasters.stackexchange.com/questions/6205/what-user-agent-should-i-set
 
 And neither the website we want to scrape nor our used agent (selenium) is named (for the specific website). So it should be fine do the next steps.
+
+__Another Disclaimer: This is not an legal advice. I assume no liability for the usage of scraping methods on the named website.__
 
 ## Preparing & importing necessary liberaries & functions
 
